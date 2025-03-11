@@ -7,7 +7,7 @@ function App() {
 
   const [students, setStudents] = useState([
     {
-      name: "Israel",
+      name: "chaim",
       age: 18,
       hobby: "learn"
     },
