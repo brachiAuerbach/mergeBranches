@@ -18,11 +18,6 @@ function App() {
     }
   ]);
 
-  const addStudentFunc = newStudent => {
-    const newStudentsArr = [...students, newStudent];
-    setStudents(newStudentsArr);
-  }
-
   const addStudent = newStudent => {
     const newStudentsArr = [...students, newStudent];
     setStudents(newStudentsArr);
