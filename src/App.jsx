@@ -18,6 +18,10 @@ function App() {
     }
   ]);
 
+  const copyStudents = () =>{
+    setStudents([...students]);
+  }
+
   const addStudent = newStudent => {
     const newStudentsArr = [...students, newStudent];
     setStudents(newStudentsArr);
